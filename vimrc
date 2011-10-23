@@ -176,3 +176,6 @@ elseif os == "linux"
   "set guifont=Deja\ Vu\ Sans\ Mono\ 10
   "set guifont=Inconsolata\ 12
 endif
+
+"Don't quote signatures in mutt
+au BufRead /tmp/mutt* normal :g/^> -- $/,/^$/-1d^M/^$^M^L
