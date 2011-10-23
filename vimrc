@@ -48,6 +48,7 @@ endif
 " Ruby settings
 ""
 autocmd FileType ruby set number
+au! BufRead,BufNewFile *.haml setfiletype haml 
 
 "Line/Column information
 set ruler
