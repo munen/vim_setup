@@ -42,11 +42,18 @@ used without the mouse (but is supported to the extent that Vim supports
 the mouse).
 
 ##file-line
+https://github.com/vim-scripts/file-line
+
 Allow files to be opened on a specific line with the following syntax:
 
     path_to_file:NN
 
 where NN is the desired line number.
+
+##gist-vim
+https://github.com/mattn/gist-vim
+
+This is a vimscript for creating gists (http://gist.github.com).
 
 ##TagList
 https://github.com/vim-scripts/taglist.vim

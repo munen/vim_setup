@@ -46,3 +46,6 @@
 [submodule "bundle/file-line"]
 	path = bundle/file-line
 	url = git://github.com/vim-scripts/file-line.git
+[submodule "bundle/gist-vim"]
+	path = bundle/gist-vim
+	url = git://github.com/mattn/gist-vim.git
