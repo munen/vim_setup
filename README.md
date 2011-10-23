@@ -1,7 +1,7 @@
 # General Plugins
 ## General install
 
-    git clone my_repo
+    git git://github.com/preek/vim_setup.git $HOME/.vim
 
 Create symlinks:
 
@@ -13,19 +13,41 @@ Switch to _$HOME/.vim_ directory and fetch submodules:
     git submodule init
     git submodule update
 
+## Update
+
+    cd $HOME/.vim
+    git pull origin master
+    git submodule init
+    git submodule update
+
+
 For pyflakes, look at the pyflakes section of this readme.
 
 ##pathogen
 https://github.com/tpope/vim-pathogen
 
+Manage your 'runtimepath' with ease. In practical terms, pathogen.vim makes it
+super easy to install plugins and runtime files in their own private
+directories.
+
 ##TwitVim
 https://github.com/vim-scripts/TwitVim
+
+Allows you to post to Twitter and view Twitter timelines.
 
 ##fugitive
 https://github.com/tpope/vim-fugitive
 
+I'm not going to lie to you; fugitive.vim may very well be the best Git wrapper
+of all time.
+
 ##TaskList
 https://github.com/vim-scripts/TaskList.vim
+
+This script is based on the eclipse Task List. It will search the file for
+FIXME, TODO, and XXX (or a custom list) and put them in a handy list for you to
+browse which at the same time will update the location in the document so you
+can see exactly where the tag is located.
 
 ##Vimoutliner
 https://github.com/vimoutliner/vimoutliner
@@ -58,6 +80,12 @@ This is a vimscript for creating gists (http://gist.github.com).
 ##TagList
 https://github.com/vim-scripts/taglist.vim
 
+
+The "Tag List" plugin is a source code browser plugin for Vim and
+provides an overview of the structure of source code files and allows
+you to efficiently browse through source code files for different
+programming languages.
+
 ### Install
 Follow install instructions: http://www.vim.org/scripts/script.php?script_id=273
 
@@ -72,35 +100,52 @@ http://ctags.sourceforge.net/
 ##NERDTree
 https://github.com/scrooloose/nerdtree
 
-It presents the filesystem to you in the form of a tree which you
+It presents the file system to you in the form of a tree which you
 manipulate with the keyboard and/or mouse. It also allows you to perform
-simple filesystem operations.
+simple file system operations.
 
 ##Minibufexpl
 https://github.com/fholgado/minibufexpl.vim
 
+List your open buffers as tabs along the top or bottom of your screen.
+
 # Color schemes
 ## Solarized (bright and dark, high contrast)
-Bright mode good for presentations
+* Bright mode good for presentations
+
+Solarized is a sixteen color palette (eight monotones, eight accent colors)
+designed for use with terminal and gui applications.
 
 http://ethanschoonover.com/solarized
 
 https://github.com/altercation/vim-colors-solarized
 ## Blackboard (dark, high contrast)
 https://github.com/nelstrom/vim-blackboard
+
+A port of the Blackboard theme from TextMate to Vim.
 ## Wombat (dark, high contrast)
 https://github.com/cschlueter/vim-wombat
+
 ## Zenburn (dark, low contrast)
 https://github.com/vim-scripts/Zenburn
+
+This colour scheme is intended to be pleasant for the eyes when working in
+low-light conditions. The low contrast will reduce eyestrain.
+
 
 # Syntax
 ##Syntastic
 https://github.com/scrooloose/syntastic
 
-On the fly syntax checking
+Syntastic is a syntax checking plugin that runs buffers through external syntax
+checkers as they are saved and opened. If syntax errors are detected, the user
+is notified and is happy because they didn't have to compile their code or
+execute their script to find them.
 
 ##Markdown
 https://github.com/tpope/vim-markdown
+
+Add markdown syntax highlighting.
 
 # Ruby
 ## Rails
@@ -127,6 +172,10 @@ Vimscript, this amounts to appropriately adding endfunction, endif, etc.
 
 # Python
 ## Bicycle Repair Man
+The Bicycle Repair Man project is an attempt to create refactoring browser
+functionality for python. Extracting methods/functions, renaming things,
+finding definitions, the most important functionality of a full fledged IDE is
+included.
 ### Install:
 http://sourceforge.net/projects/bicyclerepair/
 
@@ -175,5 +224,5 @@ http://robey.lag.net/2010/06/21/mensch-font.html
 
 The latest MacOS release (10.6, or “Snow Leopard”) comes with a new monospace
 font. It’s called “Menlo” and it’s a slightly modified form of the standard
-Linux font (with appropriately weightly Linux name) “DejaVu Sans Serif Mono”,
+Linux font (with appropriately weightily Linux name) “DejaVu Sans Serif Mono”,
 which is itself an updated form of Bitstream Vera Sans Mono.
