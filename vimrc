@@ -48,7 +48,7 @@ endif
 " Ruby settings
 ""
 autocmd FileType ruby set number
-au! BufRead,BufNewFile *.haml setfiletype haml 
+au! BufRead,BufNewFile *.haml setfiletype haml
 
 "Line/Column information
 set ruler
@@ -184,3 +184,11 @@ endif
 
 "Don't quote signatures in mutt
 au BufRead /tmp/mutt* normal :g/^> -- $/,/^$/-1d^M/^$^M^L
+
+" Enable syntastic syntax checking for supported languages
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+

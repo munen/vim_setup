@@ -94,6 +94,11 @@ https://github.com/cschlueter/vim-wombat
 https://github.com/vim-scripts/Zenburn
 
 # Syntax
+##Syntastic
+https://github.com/scrooloose/syntastic
+
+On the fly syntax checking
+
 ##Markdown
 https://github.com/tpope/vim-markdown
 
