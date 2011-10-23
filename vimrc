@@ -113,8 +113,10 @@ syntax on
 "cmd completion enhanced mode
 set wildmenu
 "Persistent undo
-set undofile
-set undodir=/tmp
+if has("undofile")
+  set undofile
+  set undodir=/tmp
+end
 
 
 "Detect filetype, load optional filetype plugins, load optional indent rule file
@@ -124,7 +126,9 @@ filetype plugin indent on
 set title
 
 "Highlight when about to linebreak and when over max textwidth
-set cc=+1
+if has("colorcolumn")
+  set cc=+1
+end
 noremap <silent> L
       \ :if exists('w:long_line_match1') <Bar>
       \   silent! call matchdelete(w:long_line_match1) <Bar>
