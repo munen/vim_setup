@@ -12,9 +12,14 @@ nmap <leader>w :w!<cr>
 "Fast quit
 nmap <leader>q :q<cr>
 
+"Fast pasting
+nmap <leader>p :set paste!<cr>
+
 "Spelling
 nmap <silent> <leader>s :set spell!<CR>
 
+"Open and close NERDTree
+map <c-n> :NERDTreeToggle<CR>
 
 ""
 " Python settings
@@ -160,3 +165,14 @@ autocmd BufWrite * :call DeleteTrailingWS()
 nmap <leader>c :cope<cr>
 "Don't show cope (current list of errors)
 nmap <leader>C :ccl<cr>
+
+" Set font according to system
+let os = substitute(system('uname'), "\n", "", "")
+if os == "darwin"
+  set guifont=Menlo:h14
+elseif os == "linux"
+  set guifont=Mensch\ 10
+  "set guifont=Anonymous\ Pro\ 12
+  "set guifont=Deja\ Vu\ Sans\ Mono\ 10
+  "set guifont=Inconsolata\ 12
+endif

@@ -116,3 +116,30 @@ http://github.com/kevinw/pyflakes-vim
       git submodule init
       git submodule update
 
+# Fonts
+## Inconsolata
+http://www.levien.com/type/myfonts/inconsolata.html
+
+It is a monospace font, designed for code listings and the like, in print.
+There are a great many "programmer fonts," designed primarily for use on the
+screen, but in most cases do not have the attention to detail for high
+resolution rendering.
+## Deja Vu Sans Mono
+http://sourceforge.net/projects/dejavu/
+
+This font comes preinstalled in Ubuntu.
+## Anonymous Pro
+http://www.ms-studio.com/FontSales/anonymouspro.html
+
+Anonymous Pro (2009) is a family of four fixed-width fonts designed especially
+with coding in mind. Characters that could be mistaken for one another (O, 0,
+I, l, 1, etc.) have distinct shapes to make them easier to tell apart in the
+context of source code.
+
+## Mensch
+http://robey.lag.net/2010/06/21/mensch-font.html
+
+The latest MacOS release (10.6, or “Snow Leopard”) comes with a new monospace
+font. It’s called “Menlo” and it’s a slightly modified form of the standard
+Linux font (with appropriately weightly Linux name) “DejaVu Sans Serif Mono”,
+which is itself an updated form of Bitstream Vera Sans Mono.
