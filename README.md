@@ -28,6 +28,12 @@ For pyflakes, look at the pyflakes section of this readme.
   https://github.com/vim-scripts/TaskList.vim
 
 ##TagList
+
+  https://github.com/vim-scripts/taglist.vim
+
+### Install
+Follow install instructions: http://www.vim.org/scripts/script.php?script_id=273
+
 ### Dependency Exuberant CTags
 Ctags generates an index (or tag) file of language objects found in source
 files that allows these items to be quickly and easily located by a text editor
@@ -37,19 +43,15 @@ available (or, alternatively, the index entry created for that object).
 http://ctags.sourceforge.net/
 
 
-### Install
-  https://github.com/vim-scripts/taglist.vim
-  Follow install instructions:
-    http://www.vim.org/scripts/script.php?script_id=273
-
-
 ##Minibufexpl
   https://github.com/fholgado/minibufexpl.vim
 
 # Color schemes
 ## Solarized (bright and dark, high contrast)
 Bright mode good for presentations
+
 http://ethanschoonover.com/solarized
+
 https://github.com/altercation/vim-colors-solarized
 ## Blackboard (dark, high contrast)
 https://github.com/nelstrom/vim-blackboard
