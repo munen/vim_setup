@@ -175,7 +175,7 @@ nmap <leader>C :ccl<cr>
 " Set font according to system
 let os = substitute(system('uname'), "\n", "", "")
 if os == "darwin"
-  set guifont=Menlo:h14
+  set guifont=Menlo:h12
 elseif os == "linux"
   set guifont=Mensch\ 10
   "set guifont=Anonymous\ Pro\ 12
