@@ -1,7 +1,8 @@
 # General Plugins
 ## General install
 
-    git git://github.com/preek/vim_setup.git $HOME/.vim
+    mv $HOME/.vim{,_bak}
+    git clone git://github.com/preek/vim_setup.git $HOME/.vim
 
 Create symlinks:
 
