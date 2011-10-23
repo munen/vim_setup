@@ -1,0 +1,33 @@
+[submodule "bundle/pathogen"]
+	path = bundle/pathogen
+	url = git://github.com/tpope/vim-pathogen.git
+[submodule "bundle/TwitVim"]
+	path = bundle/TwitVim
+	url = git://github.com/vim-scripts/TwitVim.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/TaskList"]
+	path = bundle/TaskList
+	url = git://github.com/vim-scripts/TaskList.vim.git
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/minibufexpl"]
+	path = bundle/minibufexpl
+	url = git://github.com/fholgado/minibufexpl.vim.git
+[submodule "bundle/colors_solarized"]
+	path = bundle/colors_solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/colors_blackboard"]
+	path = bundle/colors_blackboard
+	url = git://github.com/nelstrom/vim-blackboard.git
+[submodule "bundle/colors_wombat"]
+	path = bundle/colors_wombat
+	url = git://github.com/cschlueter/vim-wombat.git
+[submodule "bundle/colors_zenburn"]
+	path = bundle/colors_zenburn
+	url = git://github.com/vim-scripts/Zenburn.git
+[submodule "bundle/pyflakes-vim"]
+	path = bundle/pyflakes-vim
+	url = git://github.com/kevinw/pyflakes-vim.git

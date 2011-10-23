@@ -10,7 +10,7 @@ ln -s $HOME/.vim/vimrc $HOME/.vimrc
 
 ##TwitVim
 ### Install
-  http://github.com/vim-scripts/
+  https://github.com/vim-scripts/TwitVim
 
 ##fugitive
 ### Install
