@@ -48,6 +48,7 @@ endif
 " Ruby settings
 ""
 autocmd FileType ruby set number
+autocmd FileType ruby runtime macros/matchit.vim
 au! BufRead,BufNewFile *.haml setfiletype haml
 
 "Line/Column information
@@ -191,4 +192,3 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
-
