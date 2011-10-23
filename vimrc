@@ -16,7 +16,7 @@ nmap <leader>q :q<cr>
 nmap <leader>p :set paste!<cr>
 
 "Spelling
-nmap <silent> <leader>s :set spell!<CR>
+nmap <silent> <leader>s :setlocal spell!<CR>
 
 "Open and close NERDTree
 map <c-n> :NERDTreeToggle<CR>
