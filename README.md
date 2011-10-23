@@ -109,6 +109,15 @@ https://github.com/tpope/vim-rails
 Remember when everybody and their mother was using TextMate for Ruby on Rails
 development? Well if it wasn't for rails.vim, we'd still be in that era.
 
+## RubyBlock
+https://github.com/nelstrom/vim-textobj-rubyblock
+
+When textobj-rubyblock is installed you will gain two new text objects, which
+are triggered by ar and ir respectively. These follow Vim convention, so that
+ar selects all of a ruby block, and ir selects the inner portion of a
+rubyblock.
+
+
 # Python
 ## Bicycle Repair Man
 ### Install:
