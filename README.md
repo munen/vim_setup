@@ -27,6 +27,21 @@ https://github.com/tpope/vim-fugitive
 ##TaskList
 https://github.com/vim-scripts/TaskList.vim
 
+##Vimoutliner
+https://github.com/vimoutliner/vimoutliner
+
+VimOutliner is an outline processor with many of the same features
+as Grandview, More, Thinktank, Ecco, etc. Features include tree
+expand/collapse, tree promotion/demotion, level sensitive colors,
+interoutline linking, and body text.
+
+What sets VimOutliner apart from the rest is that it's been constructed
+from the ground up for fast and easy authoring.  Keystrokes are quick and
+easy, especially for someone knowing the Vim editor. VimOutliner can be
+used without the mouse (but is supported to the extent that Vim supports
+the mouse).
+
+
 ##TagList
 https://github.com/vim-scripts/taglist.vim
 
