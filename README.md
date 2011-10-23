@@ -16,20 +16,19 @@ Switch to _$HOME/.vim_ directory and fetch submodules:
 For pyflakes, look at the pyflakes section of this readme.
 
 ##pathogen
-  https://github.com/tpope/vim-pathogen
+https://github.com/tpope/vim-pathogen
 
 ##TwitVim
-  https://github.com/vim-scripts/TwitVim
+https://github.com/vim-scripts/TwitVim
 
 ##fugitive
-  https://github.com/tpope/vim-fugitive
+https://github.com/tpope/vim-fugitive
 
 ##TaskList
-  https://github.com/vim-scripts/TaskList.vim
+https://github.com/vim-scripts/TaskList.vim
 
 ##TagList
-
-  https://github.com/vim-scripts/taglist.vim
+https://github.com/vim-scripts/taglist.vim
 
 ### Install
 Follow install instructions: http://www.vim.org/scripts/script.php?script_id=273
@@ -42,9 +41,15 @@ available (or, alternatively, the index entry created for that object).
 #### Install
 http://ctags.sourceforge.net/
 
+##NERDTree
+https://github.com/scrooloose/nerdtree
+
+It presents the filesystem to you in the form of a tree which you
+manipulate with the keyboard and/or mouse. It also allows you to perform
+simple filesystem operations.
 
 ##Minibufexpl
-  https://github.com/fholgado/minibufexpl.vim
+https://github.com/fholgado/minibufexpl.vim
 
 # Color schemes
 ## Solarized (bright and dark, high contrast)
@@ -59,6 +64,13 @@ https://github.com/nelstrom/vim-blackboard
 https://github.com/cschlueter/vim-wombat
 ## Zenburn (dark, low contrast)
 https://github.com/vim-scripts/Zenburn
+
+# Ruby
+## Rails
+https://github.com/tpope/vim-rails
+
+Remember when everybody and their mother was using TextMate for Ruby on Rails
+development? Well if it wasn't for rails.vim, we'd still be in that era.
 
 # Python
 ## Bicycle Repair Man
