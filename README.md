@@ -117,6 +117,13 @@ are triggered by ar and ir respectively. These follow Vim convention, so that
 ar selects all of a ruby block, and ir selects the inner portion of a
 rubyblock.
 
+## Endwise
+https://github.com/tpope/vim-endwise
+
+This is a simple plugin that helps to end certain structures automatically. In
+Ruby, this means adding end after if, do, def and several other keywords. In
+Vimscript, this amounts to appropriately adding endfunction, endif, etc.
+
 
 # Python
 ## Bicycle Repair Man
