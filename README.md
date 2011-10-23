@@ -1,23 +1,30 @@
 # General Plugins
 ## General install
 
-git clone my_repo
-ln -s $HOME/.vim/vimrc $HOME/.vimrc
+    git clone my_repo
+
+Create symlinks:
+
+    ln -s $HOME/.vim/vimrc $HOME/.vimrc
+
+Switch to _$HOME/.vim_ directory and fetch submodules:
+
+    cd $HOME/.vim
+    git submodule init
+    git submodule update
+
+For pyflakes, look at the pyflakes section of this readme.
 
 ##pathogen
-### Install
   https://github.com/tpope/vim-pathogen
 
 ##TwitVim
-### Install
   https://github.com/vim-scripts/TwitVim
 
 ##fugitive
-### Install
   https://github.com/tpope/vim-fugitive
 
 ##TaskList
-### Install
   https://github.com/vim-scripts/TaskList.vim
 
 ##TagList
@@ -37,7 +44,6 @@ http://ctags.sourceforge.net/
 
 
 ##Minibufexpl
-### Install
   https://github.com/fholgado/minibufexpl.vim
 
 # Color schemes
@@ -66,10 +72,14 @@ http://sourceforge.net/projects/bicyclerepair/
 PyFlakes catches common Python errors like mistyping a variable name or
 accessing a local before it is bound, and also gives warnings for things like
 unused imports.
+
+http://github.com/kevinw/pyflakes-vim
+
 ### Install
-cd .vim/bundle
-git clone git://github.com/kevinw/pyflakes-vim.git
-cd pyflakes-vim
-git submodule init
-git submodule update
+
+      cd .vim/bundle
+      git clone git://github.com/kevinw/pyflakes-vim.git
+      cd pyflakes-vim
+      git submodule init
+      git submodule update
 
