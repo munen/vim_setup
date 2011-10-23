@@ -65,6 +65,10 @@ https://github.com/cschlueter/vim-wombat
 ## Zenburn (dark, low contrast)
 https://github.com/vim-scripts/Zenburn
 
+# Syntax
+##Markdown
+https://github.com/tpope/vim-markdown
+
 # Ruby
 ## Rails
 https://github.com/tpope/vim-rails

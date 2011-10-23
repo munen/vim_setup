@@ -140,9 +140,6 @@ let g:bike_exceptions = 1
 " If this file doesn't exist yet, create it.
 :map gf :e <cfile>.otl<CR>
 
-" Recognize markdown files
-au BufNewFile,BufRead *.md set filetype=mkd
-
 " TwitVIM configuration
 let twitvim_login = "preek:HtUJ3SYulV8QPbPb"
 let twitvim_api_root = "https://api.twitter.com/1"
