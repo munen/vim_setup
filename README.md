@@ -41,6 +41,12 @@ easy, especially for someone knowing the Vim editor. VimOutliner can be
 used without the mouse (but is supported to the extent that Vim supports
 the mouse).
 
+##file-line
+Allow files to be opened on a specific line with the following syntax:
+
+    path_to_file:NN
+
+where NN is the desired line number.
 
 ##TagList
 https://github.com/vim-scripts/taglist.vim

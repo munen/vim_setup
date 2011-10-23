@@ -43,3 +43,6 @@
 [submodule "bundle/vimoutliner"]
 	path = bundle/vimoutliner
 	url = git://github.com/vimoutliner/vimoutliner.git
+[submodule "bundle/file-line"]
+	path = bundle/file-line
+	url = git://github.com/vim-scripts/file-line.git
