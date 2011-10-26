@@ -21,8 +21,14 @@ Switch to _$HOME/.vim_ directory and fetch submodules:
     git submodule init
     git submodule update
 
-
 For pyflakes, look at the pyflakes section of this readme.
+
+## Adding a new plugin
+
+    cd $HOME/.vim
+    git submodule add $PATH_TO_GIT_REPO ./bundle/$LOCAL_NAME
+    git add .gitmodules bundle
+    git commit -am"your message"
 
 ##pathogen
 https://github.com/tpope/vim-pathogen
@@ -72,6 +78,13 @@ Allow files to be opened on a specific line with the following syntax:
     path_to_file:NN
 
 where NN is the desired line number.
+
+##coffee-script
+https://github.com/kchmck/vim-coffee-script
+
+Adds CoffeeScript supporr. It handles syntax, indenting, and compiling. Also
+included is an eco syntax and support for CoffeeScript in Haml and HTML.
+
 
 ##gist-vim
 https://github.com/mattn/gist-vim
