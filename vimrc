@@ -6,6 +6,9 @@ call pathogen#helptags()
 let mapleader = ","
 let g:mapleader = ","
 
+"Remap ESC to jj
+:imap jj <esc>
+
 "Fast saving
 nmap <leader>w :w!<cr>
 
