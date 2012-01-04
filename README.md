@@ -161,6 +161,26 @@ https://github.com/tpope/vim-markdown
 
 Add markdown syntax highlighting.
 
+##Align
+https://github.com/tsaleh/vim-align
+
+Align text on arbitray symbols, i.e. '='.
+
+Example:
+
+    foo = 1
+    foobar = 2
+
+Select in visual mode, then:
+
+    :Align =
+
+You get:
+
+    foo    = 1
+    foobar = 2
+
+
 # Ruby
 ## Rails
 https://github.com/tpope/vim-rails
