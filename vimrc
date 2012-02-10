@@ -160,7 +160,7 @@ let g:bike_exceptions = 1
 :map gf :e <cfile>.otl<CR>
 
 " TwitVIM configuration
-:so twitter_account.vim
+:so ~/vim_setup/twitter_account.vim
 let twitvim_api_root = "https://api.twitter.com/1"
 nmap <leader>tp :BPosttoTwitter<cr>
 nmap <leader>tf :FriendsTwitter<cr>
