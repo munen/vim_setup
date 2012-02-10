@@ -1,4 +1,4 @@
-"Keep each plugin in its own git submodule
+"Keep each plugin in its town git submodule
 call pathogen#infect()
 call pathogen#helptags()
 
@@ -96,8 +96,12 @@ filetype plugin on
 
 "Colorschemes
 "wombat,zenburn,blackboard
-colorscheme solarized
-set background=dark
+if has('gui_running')
+  colorscheme solarized
+  set background=light
+else
+  colorscheme wombat256
+end
 
 ""
 " Misc
@@ -106,10 +110,11 @@ set background=dark
 "network without screen session.
 set nobackup
 set nowritebackup
-set noswapfile
-"set backupdir=/tmp
+"set noswapfile
+set backupdir=/tmp
 
 "Enable mouse usage
+"
 set mouse=a
 syntax on
 "cmd completion enhanced mode
@@ -152,7 +157,7 @@ let g:bike_exceptions = 1
 :map gf :e <cfile>.otl<CR>
 
 " TwitVIM configuration
-let twitvim_login = "preek:HtUJ3SYulV8QPbPb"
+:so twitter_account.vim
 let twitvim_api_root = "https://api.twitter.com/1"
 nmap <leader>tp :BPosttoTwitter<cr>
 nmap <leader>tf :FriendsTwitter<cr>
@@ -160,12 +165,12 @@ nmap <leader>tr :RepliesTwitter<cr>
 nmap <leader>td :DMTwitter<cr>
 
 "Delete trailing white space
-func! DeleteTrailingWS()
-  exe "normal mz"
-  %s/\s\+$//ge
-  exe "normal `z"
-endfunc
-autocmd BufWrite * :call DeleteTrailingWS()
+"func! DeleteTrailingWS()
+"  exe "normal mz"
+"  %s/\s\+$//ge
+"  exe "normal `z"
+"endfunc
+"autocmd BufWrite * :call DeleteTrailingWS()
 
 "Show cope (current list of errors)
 nmap <leader>c :cope<cr>
