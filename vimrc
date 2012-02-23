@@ -1,10 +1,13 @@
-"Keep each plugin in its own git submodule
+"Keep each plugin in its town git submodule
 call pathogen#infect()
 call pathogen#helptags()
 
 "Set mapleader for extra combinations
 let mapleader = ","
 let g:mapleader = ","
+
+"Remap ESC to jj
+:imap jj <esc>
 
 "Fast saving
 nmap <leader>w :w!<cr>
@@ -157,7 +160,7 @@ let g:bike_exceptions = 1
 :map gf :e <cfile>.otl<CR>
 
 " TwitVIM configuration
-let twitvim_login = "preek:HtUJ3SYulV8QPbPb"
+:so ~/vim_setup/twitter_account.vim
 let twitvim_api_root = "https://api.twitter.com/1"
 nmap <leader>tp :BPosttoTwitter<cr>
 nmap <leader>tf :FriendsTwitter<cr>

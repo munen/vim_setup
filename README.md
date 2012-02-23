@@ -89,7 +89,14 @@ included is an eco syntax and support for CoffeeScript in Haml and HTML.
 ##gist-vim
 https://github.com/mattn/gist-vim
 
-This is a vimscript for creating gists (http://gist.github.com).
+This is a vimscript for creating and managing private and public gists (http://gist.github.com).
+
+## Pastie
+https://github.com/tpope/vim-pastie
+
+Create new snippets for http://pastie.org/
+This might be considered redundant to the Gist function of gist-vim
+
 
 ##TagList
 https://github.com/vim-scripts/taglist.vim
@@ -160,6 +167,25 @@ execute their script to find them.
 https://github.com/tpope/vim-markdown
 
 Add markdown syntax highlighting.
+
+##Align
+https://github.com/tsaleh/vim-align
+
+Align text on arbitray symbols, i.e. '='.
+
+Example:
+
+    foo = 1
+    foobar = 2
+
+Select in visual mode, then:
+
+    :Align =
+
+You get:
+
+    foo    = 1
+    foobar = 2
 
 # Ruby
 ## Rails

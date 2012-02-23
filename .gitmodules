@@ -67,3 +67,9 @@
 [submodule "bundle/syntax_gemfile"]
 	path = bundle/syntax_gemfile
 	url = git://github.com/tobiassvn/vim-gemfile.git
+[submodule "bundle/align"]
+	path = bundle/align
+	url = git://github.com/tsaleh/vim-align.git
+[submodule "bundle/pastie"]
+	path = bundle/pastie
+	url = git://github.com/tpope/vim-pastie.git
