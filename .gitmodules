@@ -73,3 +73,6 @@
 [submodule "bundle/pastie"]
 	path = bundle/pastie
 	url = git://github.com/tpope/vim-pastie.git
+[submodule "bundle/html-escape"]
+	path = bundle/html-escape
+	url = git://github.com/skwp/vim-html-escape.git

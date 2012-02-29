@@ -130,6 +130,11 @@ https://github.com/fholgado/minibufexpl.vim
 
 List your open buffers as tabs along the top or bottom of your screen.
 
+##HTML Escape
+
+This code allows you to escape your HTML entities with one shortcut key: Change
+(<, >, &) to (&lt;, &gt;, &amp;), or the reverse.
+
 # Color schemes
 ## Solarized (bright and dark, high contrast)
 * Bright mode good for presentations
