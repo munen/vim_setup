@@ -76,3 +76,6 @@
 [submodule "bundle/html-escape"]
 	path = bundle/html-escape
 	url = git://github.com/skwp/vim-html-escape.git
+[submodule "bundle/auto_close_tag"]
+	path = bundle/auto_close_tag
+	url = git://github.com/vim-scripts/HTML-AutoCloseTag.git
