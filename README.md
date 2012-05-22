@@ -173,6 +173,12 @@ https://github.com/tpope/vim-markdown
 
 Add markdown syntax highlighting.
 
+
+##JSON
+https://github.com/leshill/vim-json
+
+Add JSON syntax highlighting.
+
 ##Align
 https://github.com/tsaleh/vim-align
 

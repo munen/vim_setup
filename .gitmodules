@@ -76,3 +76,6 @@
 [submodule "bundle/html-escape"]
 	path = bundle/html-escape
 	url = git://github.com/skwp/vim-html-escape.git
+[submodule "bundle/json"]
+	path = bundle/json
+	url = git://github.com/leshill/vim-json.git
