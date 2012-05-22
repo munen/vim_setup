@@ -135,6 +135,13 @@ List your open buffers as tabs along the top or bottom of your screen.
 This code allows you to escape your HTML entities with one shortcut key: Change
 (<, >, &) to (&lt;, &gt;, &amp;), or the reverse.
 
+##HTML AutoCloseTag
+https://github.com/vim-scripts/HTML-AutoCloseTag
+
+Automatically closes HTML tag once you finish typing it with >. It is also
+smart enough to not autoclose tags when in a comment, when they are
+self-closing, or when they have already been closed.
+
 # Color schemes
 ## Solarized (bright and dark, high contrast)
 * Bright mode good for presentations
