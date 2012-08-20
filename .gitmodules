@@ -82,3 +82,6 @@
 [submodule "bundle/json"]
 	path = bundle/json
 	url = git://github.com/leshill/vim-json.git
+[submodule "bundle/vim-rvm"]
+	path = bundle/vim-rvm
+	url = git://github.com/tpope/vim-rvm.git

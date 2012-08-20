@@ -51,6 +51,7 @@ endif
 " Ruby settings
 ""
 autocmd FileType ruby set number
+autocmd FileType ruby,haml Rvm use 1.8.7-p72
 autocmd FileType ruby runtime macros/matchit.vim
 au! BufRead,BufNewFile *.haml setfiletype haml
 
@@ -167,13 +168,13 @@ nmap <leader>tf :FriendsTwitter<cr>
 nmap <leader>tr :RepliesTwitter<cr>
 nmap <leader>td :DMTwitter<cr>
 
-"Delete trailing white space
-"func! DeleteTrailingWS()
-"  exe "normal mz"
-"  %s/\s\+$//ge
-"  exe "normal `z"
-"endfunc
-"autocmd BufWrite * :call DeleteTrailingWS()
+" Delete trailing white space
+func! DeleteTrailingWS()
+  exe "normal mz"
+  %s/\s\+$//ge
+  exe "normal `z"
+endfunc
+autocmd BufWrite * :call DeleteTrailingWS()
 
 "Show cope (current list of errors)
 nmap <leader>c :cope<cr>

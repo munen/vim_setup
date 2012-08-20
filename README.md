@@ -212,6 +212,12 @@ https://github.com/tpope/vim-rails
 Remember when everybody and their mother was using TextMate for Ruby on Rails
 development? Well if it wasn't for rails.vim, we'd still be in that era.
 
+## RVM
+https://github.com/tpope/vim-rvm
+
+Want to use RVM with Vim? (ie don't want to use jruby with vim for speed
+reasons?)
+
 ## RubyBlock
 https://github.com/nelstrom/vim-textobj-rubyblock
 
