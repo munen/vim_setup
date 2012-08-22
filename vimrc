@@ -217,7 +217,11 @@ nmap <leader>gd :CMiniBufExplorer <cr> :Gstatus <cr><C-w><C-w> :Gdiff <cr>
 "map P :TlistToggle<CR>
 
 "Always show statusline
-":set laststatus=2
+:set laststatus=2
+
+"tpope's statusline
+set statusline=[%n]\ %<%.99f\ %h%w%m%r%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%y%=%-16(\ %l,%c\ %)%P
+
 
 "Text bubbling like in Textmate
 "http://vimcasts.org/episodes/bubbling-text/
