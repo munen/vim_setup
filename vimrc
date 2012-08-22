@@ -81,8 +81,6 @@ nnoremap & :nohls<CR>
 "Show tasklist buffer
 map T :TaskList<CR>
 
-"Show taglist buffer (classes, methods)
-map P :TlistToggle<CR>
 "Exuberant Ctags; needed for Taglist
 let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
 
@@ -201,3 +199,10 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
+"OPTIONAL configuration
+
+"Show taglist buffer (classes, methods)
+"map P :TlistToggle<CR>
+
+"Always show statusline
+":set laststatus=2
