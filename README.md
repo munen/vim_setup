@@ -23,6 +23,11 @@ Switch to _$HOME/.vim_ directory and fetch submodules:
 
 For pyflakes, look at the pyflakes section of this readme.
 
+## Upgrade
+If you want to upgrade all plugins, pull master for each bundle:
+
+    git submodule foreach git pull origin master
+
 ## Adding a new plugin
 
     cd $HOME/.vim
