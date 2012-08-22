@@ -166,7 +166,7 @@ nmap <leader>tf :FriendsTwitter<cr>
 nmap <leader>tr :RepliesTwitter<cr>
 nmap <leader>td :DMTwitter<cr>
 
-" Delete trailing white space
+"Delete trailing white space
 func! DeleteTrailingWS()
   exe "normal mz"
   %s/\s\+$//ge
@@ -179,7 +179,7 @@ nmap <leader>c :cope<cr>
 "Don't show cope (current list of errors)
 nmap <leader>C :ccl<cr>
 
-" Set font according to system
+"Set font according to system
 let os = substitute(system('uname'), "\n", "", "")
 if os == "darwin"
   set guifont=Menlo:h12
@@ -194,6 +194,8 @@ endif
 au BufRead /tmp/mutt* normal :g/^> -- $/,/^$/-1d^M/^$^M^L
 
 " Enable syntastic syntax checking for supported languages
+"Enable syntastic syntax checking for supported languages
+"red highlight on error
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
