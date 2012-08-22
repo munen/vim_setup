@@ -218,3 +218,13 @@ nmap <leader>gd :CMiniBufExplorer <cr> :Gstatus <cr><C-w><C-w> :Gdiff <cr>
 
 "Always show statusline
 ":set laststatus=2
+
+"Text bubbling like in Textmate
+"http://vimcasts.org/episodes/bubbling-text/
+"bubble single lines
+nmap <C-k> ddkP
+nmap <C-j> ddp
+"bubble multiple lines
+vmap <C-k> xkP`[V`]
+vmap <C-j> xp`[V`]
+
