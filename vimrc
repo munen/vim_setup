@@ -6,6 +6,7 @@ call pathogen#helptags()
 let mapleader = ","
 let g:mapleader = ","
 
+
 "Remap ESC to jj
 :imap jj <esc>
 
@@ -202,9 +203,13 @@ set statusline+=%*
 let g:syntastic_enable_signs=1
 let g:syntastic_auto_loc_list=1
 
-" If doing a diff. Upon writing changes to file, automatically update the
-" differences
+"If doing a diff. Upon writing changes to file, automatically update the
+"differences
 autocmd BufWritePost * if &diff == 1 | diffupdate | endif
+
+"Fugitive configuration
+"disable mbe, because it confuses Gdiff, then get the status window and diff
+nmap <leader>gd :CMiniBufExplorer <cr> :Gstatus <cr><C-w><C-w> :Gdiff <cr>
 
 "OPTIONAL configuration
 
