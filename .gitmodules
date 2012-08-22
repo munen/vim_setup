@@ -15,7 +15,7 @@
 	url = git://github.com/vim-scripts/taglist.vim.git
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
-	url = git://github.com/fholgado/minibufexpl.vim.git
+	url = git://github.com/dccmx/minibufexpl.vim.git
 [submodule "bundle/colors_solarized"]
 	path = bundle/colors_solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
