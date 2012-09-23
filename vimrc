@@ -234,3 +234,7 @@ vmap <C-j> xp`[V`]
 
 "Do not show startup message
 set shortmess+=I
+
+"Do not skip lines when 'wrap' is set
+nnoremap j gj
+nnoremap k gk
