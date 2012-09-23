@@ -232,3 +232,5 @@ nmap <C-j> ddp
 vmap <C-k> xkP`[V`]
 vmap <C-j> xp`[V`]
 
+"Do not show startup message
+set shortmess+=I
