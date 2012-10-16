@@ -42,6 +42,17 @@ Manage your 'runtimepath' with ease. In practical terms, pathogen.vim makes it
 super easy to install plugins and runtime files in their own private
 directories.
 
+
+##EasyGrep
+https://github.com/vim-scripts/EasyGrep
+
+EasyGrep makes using vimgrep easier.  When using EasyGrep, searching for a word
+is as easy as typing <leader>vv (v v, not double-u) over the word for which you
+want to search.  This search can also be accomplished with the :Grep command.</leader>
+
+Searching and replacing (recursively) in arbitrary folder structures is easy,
+as well.
+
 ##TwitVim
 https://github.com/vim-scripts/TwitVim
 

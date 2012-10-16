@@ -52,7 +52,7 @@ endif
 " Ruby settings
 ""
 autocmd FileType ruby set number
-autocmd FileType ruby,haml Rvm use 1.8.7-p72
+"autocmd FileType ruby,haml Rvm use 1.8.7-p72
 autocmd FileType ruby runtime macros/matchit.vim
 au! BufRead,BufNewFile *.haml setfiletype haml
 
@@ -184,6 +184,9 @@ nmap <leader>C :ccl<cr>
 let os = substitute(system('uname'), "\n", "", "")
 if os == "darwin"
   set guifont=Menlo:h12
+  " https://blogs.adobe.com/typblography/2012/09/source-code-pro.html
+  "set guifont=Source\ Code\ Pro:h13
+
 elseif os == "linux"
   set guifont=Mensch\ 10
   "set guifont=Anonymous\ Pro\ 12

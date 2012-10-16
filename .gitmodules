@@ -85,3 +85,6 @@
 [submodule "bundle/vim-rvm"]
 	path = bundle/vim-rvm
 	url = git://github.com/tpope/vim-rvm.git
+[submodule "bundle/EasyGrep"]
+	path = bundle/EasyGrep
+	url = git://github.com/vim-scripts/EasyGrep.git
