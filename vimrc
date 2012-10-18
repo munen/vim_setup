@@ -54,7 +54,7 @@ endif
 autocmd FileType ruby set number
 "autocmd FileType ruby,haml Rvm use 1.8.7-p72
 autocmd FileType ruby runtime macros/matchit.vim
-au! BufRead,BufNewFile *.haml setfiletype haml
+au! BufRead,BufNewFile *.haml,*.hamlc setfiletype haml
 
 "Line/Column information
 set ruler
