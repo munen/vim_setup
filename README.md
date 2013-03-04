@@ -190,7 +190,7 @@ with pastel colours and sensible syntax highlighting.
 
 A theme should not get in your way but should aid your programming with easily
 identifiable colours that add meaning and enhance legibility. This was the main
-focus when developing Tomorrow. 
+focus when developing Tomorrow.
 
 
 # Syntax
@@ -275,6 +275,14 @@ http://sourceforge.net/projects/bicyclerepair/
  * mkdir -p .vim/ftplugin/python; cp bicyclerepair-0.9/ide-integration/bike.vim * $HOME/.vim/ftplugin/python
   * Only load this plugin for filetype 'python'
 
+## Powerline
+https://github.com/Lokaltog/vim-powerline
+
+Powerline is a utility plugin which allows you to create better-looking, more functional vim statuslines.
+So that it can be used with 'fancy' symbols, a special font is needed. Look
+under fonts "Menlo - For Powerline"
+
+
 ## Pyflakes
 PyFlakes catches common Python errors like mistyping a variable name or
 accessing a local before it is bound, and also gives warnings for things like
@@ -317,3 +325,8 @@ The latest MacOS release (10.6, or “Snow Leopard”) comes with a new monospac
 font. It’s called “Menlo” and it’s a slightly modified form of the standard
 Linux font (with appropriately weightily Linux name) “DejaVu Sans Serif Mono”,
 which is itself an updated form of Bitstream Vera Sans Mono.
+
+## Menlo - For Powerline
+https://gist.github.com/preek/5082395
+https://gist.github.com/qrush/1595572
+
