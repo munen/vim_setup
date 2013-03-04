@@ -161,12 +161,14 @@ let g:bike_exceptions = 1
 :map gf :e <cfile>.otl<CR>
 
 " TwitVIM configuration
+if filereadable("~/vim_setup/twitter_account.vim")
 :so ~/vim_setup/twitter_account.vim
-let twitvim_api_root = "https://api.twitter.com/1"
-nmap <leader>tp :BPosttoTwitter<cr>
-nmap <leader>tf :FriendsTwitter<cr>
-nmap <leader>tr :RepliesTwitter<cr>
-nmap <leader>td :DMTwitter<cr>
+  let twitvim_api_root = "https://api.twitter.com/1"
+  nmap <leader>tp :BPosttoTwitter<cr>
+  nmap <leader>tf :FriendsTwitter<cr>
+  nmap <leader>tr :RepliesTwitter<cr>
+  nmap <leader>td :DMTwitter<cr>
+endif
 
 "Delete trailing white space
 func! DeleteTrailingWS()
