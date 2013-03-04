@@ -91,3 +91,6 @@
 [submodule "colors_tomorrow"]
 	path = bundle/colors_tomorrow
 	url = git@github.com:preek/vim-pathogen-tomorrow-theme.git
+[submodule "/Users/preek/vim_setup/bundle/powerline"]
+	path = /Users/preek/vim_setup/bundle/powerline
+	url = git://github.com/Lokaltog/vim-powerline.git

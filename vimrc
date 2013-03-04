@@ -184,7 +184,7 @@ nmap <leader>C :ccl<cr>
 "Set font according to system
 let os = substitute(system('uname'), "\n", "", "")
 if os == "darwin"
-  set guifont=Menlo:h12
+  set guifont=MenloRegularForPowerline:h12
   " https://blogs.adobe.com/typblography/2012/09/source-code-pro.html
   "set guifont=Source\ Code\ Pro:h13
 
@@ -242,3 +242,9 @@ set shortmess+=I
 "Do not skip lines when 'wrap' is set
 nnoremap j gj
 nnoremap k gk
+
+"Powerline
+let g:Powerline_symbols = 'fancy'
+set laststatus=2
+set encoding=utf-8
+set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
