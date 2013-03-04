@@ -100,8 +100,9 @@ filetype plugin on
 "Colorschemes
 "wombat,zenburn,blackboard
 if has('gui_running')
-  colorscheme solarized
-  set background=light
+  "colorscheme solarized
+  "set background=dark
+  colorscheme Tomorrow-Night
 else
   colorscheme wombat256
 end
