@@ -186,7 +186,7 @@ nmap <leader>C :ccl<cr>
 "Set font according to system
 let os = substitute(system('uname'), "\n", "", "")
 if os == "darwin"
-  set guifont=MenloRegularForPowerline:h12
+  set guifont=Menlo:h12
   " https://blogs.adobe.com/typblography/2012/09/source-code-pro.html
   "set guifont=Source\ Code\ Pro:h13
 
