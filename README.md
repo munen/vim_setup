@@ -280,7 +280,7 @@ https://github.com/Lokaltog/vim-powerline
 
 Powerline is a utility plugin which allows you to create better-looking, more functional vim statuslines.
 So that it can be used with 'fancy' symbols, a special font is needed. Look
-under fonts "Menlo - For Powerline"
+under fonts ["Menlo - For Powerline"](#menlo---for-powerline)
 
 
 ## Pyflakes
