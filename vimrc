@@ -28,6 +28,10 @@ map <c-n> :NERDTreeToggle<CR>
 "Fast copying to clipboard in visual mode
 vmap <leader>c "*y<cr>
 
+"Fast cutting to clipboard in visual mode
+vmap <leader>x "*x<cr>
+
+
 ""
 " Python settings
 ""
