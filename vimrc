@@ -25,6 +25,9 @@ nmap <silent> <leader>s :setlocal spell!<CR>
 "Open and close NERDTree
 map <c-n> :NERDTreeToggle<CR>
 
+"Fast copying to clipboard in visual mode
+vmap <leader>c "*y<cr>
+
 ""
 " Python settings
 ""
