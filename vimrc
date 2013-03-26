@@ -257,3 +257,8 @@ let g:Powerline_symbols = 'fancy'
 set laststatus=2
 set encoding=utf-8
 set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
+
+"Save and load the folding of the document and place the cursor at the position
+"when file was closed
+au BufWinLeave * mkview
+au BufWinEnter * silent loadview
