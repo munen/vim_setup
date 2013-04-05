@@ -34,6 +34,10 @@ vmap <leader>x "*x<cr>
 "Fast creating a visual code snippet and open in browser
 vmap <leader>S :TOhtml<cr> :w! /tmp/1.html<cr> :!open /tmp/1.html<cr> :q!<cr>
 
+"Fast switching between buffers
+map > :bn<cr>
+map < :bp<cr>
+
 
 ""
 " Python settings
