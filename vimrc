@@ -31,6 +31,9 @@ vmap <leader>c "*y<cr>
 "Fast cutting to clipboard in visual mode
 vmap <leader>x "*x<cr>
 
+"Fast creating a visual code snippet and open in browser
+vmap <leader>S :TOhtml<cr> :w! /tmp/1.html<cr> :!open /tmp/1.html<cr> :q!<cr>
+
 
 ""
 " Python settings

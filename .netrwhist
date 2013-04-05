@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/preek/src/geolion2_prototype/spec/factories'
-let g:netrw_dirhist_2='/Users/preek/src/ban-002/app/views'
-let g:netrw_dirhist_3='/Users/preek/src/geolion2_prototype/spec/factories'
-let g:netrw_dirhist_4='/Users/preek/src/geolion2_prototype/db/seeds'
-let g:netrw_dirhist_5='/Users/preek/src/geolion2_prototype/spec/factories'
-let g:netrw_dirhist_6='/Users/preek/src/geolion2_prototype/app/assets/images'
-let g:netrw_dirhist_7='/Users/preek/Dropbox/HSZ-T/einfuehrung_in_c/src/gol/slides'
-let g:netrw_dirhist_8='/Users/preek/src/geolion2_prototype/app/views/attribute_types'
-let g:netrw_dirhist_9='/Users/preek/src/geolion2_prototype/app/assets/javascripts'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/preek/vim_setup/bundle/vimoutliner'
