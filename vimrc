@@ -19,6 +19,9 @@ nmap <leader>q :q<cr>
 "Fast pasting
 nmap <leader>p :set paste!<cr>
 
+"Fast :only
+nmap <leader>o :only<cr>:MiniBufExplorer<cr>
+
 "Spelling
 nmap <silent> <leader>s :setlocal spell!<CR>
 
@@ -35,8 +38,8 @@ vmap <leader>x "*x<cr>
 vmap <leader>S :TOhtml<cr> :w! /tmp/1.html<cr> :!open /tmp/1.html<cr> :q!<cr>
 
 "Fast switching between buffers
-map > :bn<cr>
-map < :bp<cr>
+map [ :bp<cr>
+map ] :bn<cr>
 
 
 ""

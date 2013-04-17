@@ -192,6 +192,11 @@ A theme should not get in your way but should aid your programming with easily
 identifiable colours that add meaning and enhance legibility. This was the main
 focus when developing Tomorrow.
 
+## Railscasts
+https://github.com/jpo/vim-railscasts-theme
+
+A GUI only color scheme based on the RailsCasts TextMate theme.
+
 
 # Syntax
 ##Syntastic
