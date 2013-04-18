@@ -2,7 +2,7 @@
 ## General install
 
     mv $HOME/.vim{,_bak}
-    git clone git://github.com/preek/vim_setup.git $HOME/.vim
+    git clone git://github.com/munen/vim_setup.git $HOME/.vim
 
 Create symlinks:
 
@@ -42,6 +42,13 @@ Manage your 'runtimepath' with ease. In practical terms, pathogen.vim makes it
 super easy to install plugins and runtime files in their own private
 directories.
 
+##The Silver Searcher
+git@github.com:rking/ag.vim.git
+
+This plugin is a front for (ag)[https://github.com/ggreer/the_silver_searcher],
+A.K.A. the_silver_searcher. Ag can be used as a replacement for 153% of the
+uses of ack. This plugin will allow you to run ag from vim, and shows the
+results in a split window.
 
 ##EasyGrep
 https://github.com/vim-scripts/EasyGrep
@@ -332,6 +339,6 @@ Linux font (with appropriately weightily Linux name) â€œDejaVu Sans Serif Monoâ€
 which is itself an updated form of Bitstream Vera Sans Mono.
 
 ## Menlo - For Powerline
-https://gist.github.com/preek/5082395
+https://gist.github.com/munen/5082395
 https://gist.github.com/qrush/1595572
 
