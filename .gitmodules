@@ -100,3 +100,6 @@
 [submodule "bundle/ag"]
 	path = bundle/ag
 	url = git@github.com:rking/ag.vim.git
+[submodule "bundle/VimRepress"]
+	path = bundle/VimRepress
+	url = git@github.com:vim-scripts/VimRepress.git

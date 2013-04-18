@@ -60,6 +60,11 @@ want to search.  This search can also be accomplished with the :Grep command.</l
 Searching and replacing (recursively) in arbitrary folder structures is easy,
 as well.
 
+##VimRepress
+https://github.com/vim-scripts/VimRepress
+
+VimRepress is a plugin for managing wordpress blog from Vim.
+
 ##TwitVim
 https://github.com/vim-scripts/TwitVim
 
