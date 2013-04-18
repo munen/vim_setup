@@ -25,6 +25,9 @@ nmap <leader>o :only<cr>:MiniBufExplorer<cr>
 "Spelling
 nmap <silent> <leader>s :setlocal spell!<CR>
 
+"Fast searching with Ag
+nmap <leader>a :Ag<cr>
+
 "Open and close NERDTree
 map <c-n> :NERDTreeToggle<CR>
 
@@ -109,6 +112,9 @@ hi MBEVisibleChanged guifg=#F1266F guibg=fg
 hi MBEVisibleNormal guifg=#5DC2D6 guibg=fg
 hi MBEChanged guifg=#CD5907 guibg=fg
 hi MBENormal guifg=#808080 guibg=fg
+
+let g:miniBufExplUseSingleClick = 1
+
 
 "Recognize filetype on the fly
 filetype on
