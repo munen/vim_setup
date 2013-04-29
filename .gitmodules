@@ -28,9 +28,6 @@
 [submodule "bundle/colors_zenburn"]
 	path = bundle/colors_zenburn
 	url = git://github.com/vim-scripts/Zenburn.git
-[submodule "bundle/pyflakes-vim"]
-	path = bundle/pyflakes-vim
-	url = git://github.com/kevinw/pyflakes-vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git

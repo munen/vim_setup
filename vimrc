@@ -63,11 +63,6 @@ set autoindent
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType python set number
 
-"PyFlakes settings
-if has("gui_running")
-  highlight SpellBad term=underline gui=undercurl guisp=Orange
-endif
-
 ""
 " Ruby settings
 ""
@@ -174,10 +169,6 @@ noremap <silent> L
       \   let w:long_line_match2 =  matchadd('ErrorMsg', printf('\%%>%dv.\+', &textwidth), -1)<Bar>
       \ endif<CR>
 
-
-" Bicycle Repair Man
-" show tracebacks on exceptions
-let g:bike_exceptions = 1
 
 " Wiki like behaviour - opens the word under the cursor as new buffer.
 " If this file doesn't exist yet, create it.

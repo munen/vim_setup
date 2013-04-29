@@ -21,8 +21,6 @@ Switch to _$HOME/.vim_ directory and fetch submodules:
     git submodule init
     git submodule update
 
-For pyflakes, look at the pyflakes section of this readme.
-
 ## Upgrade
 If you want to upgrade all plugins, pull master for each bundle:
 
@@ -277,43 +275,12 @@ This is a simple plugin that helps to end certain structures automatically. In
 Ruby, this means adding end after if, do, def and several other keywords. In
 Vimscript, this amounts to appropriately adding endfunction, endif, etc.
 
-
-# Python
-## Bicycle Repair Man
-The Bicycle Repair Man project is an attempt to create refactoring browser
-functionality for python. Extracting methods/functions, renaming things,
-finding definitions, the most important functionality of a full fledged IDE is
-included.
-### Install:
-http://sourceforge.net/projects/bicyclerepair/
-
- * Download and unpack tar
- * cd bicyclerepair-0.9; python setup.py install
- * mkdir -p .vim/ftplugin/python; cp bicyclerepair-0.9/ide-integration/bike.vim * $HOME/.vim/ftplugin/python
-  * Only load this plugin for filetype 'python'
-
 ## Powerline
 https://github.com/Lokaltog/vim-powerline
 
 Powerline is a utility plugin which allows you to create better-looking, more functional vim statuslines.
 So that it can be used with 'fancy' symbols, a special font is needed. Look
 under fonts ["Menlo - For Powerline"](#menlo---for-powerline)
-
-
-## Pyflakes
-PyFlakes catches common Python errors like mistyping a variable name or
-accessing a local before it is bound, and also gives warnings for things like
-unused imports.
-
-http://github.com/kevinw/pyflakes-vim
-
-### Install
-
-      cd .vim/bundle
-      git clone git://github.com/kevinw/pyflakes-vim.git
-      cd pyflakes-vim
-      git submodule init
-      git submodule update
 
 # Fonts
 ## Inconsolata
