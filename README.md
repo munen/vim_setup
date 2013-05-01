@@ -168,6 +168,18 @@ Automatically closes HTML tag once you finish typing it with >. It is also
 smart enough to not autoclose tags when in a comment, when they are
 self-closing, or when they have already been closed.
 
+##Webapi
+https://github.com/mattn/webapi-vim
+
+Vim Interface to Web API
+
+* XML parser Library
+* HTML parser Library
+* JSON parser Library
+* HTTP client
+
+and some utility functions.
+
 # Color schemes
 ## Solarized (bright and dark, high contrast)
 * Bright mode good for presentations

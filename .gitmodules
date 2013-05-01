@@ -100,3 +100,6 @@
 [submodule "bundle/VimRepress"]
 	path = bundle/VimRepress
 	url = git@github.com:vim-scripts/VimRepress.git
+[submodule "bundle/webapi"]
+	path = bundle/webapi
+	url = git@github.com:mattn/webapi-vim.git
