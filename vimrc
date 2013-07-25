@@ -22,6 +22,11 @@ nmap <leader>p :set paste!<cr>
 "Fast :only
 nmap <leader>o :only<cr>:MiniBufExplorer<cr>
 
+"Fast open file with standard program (mac only)
+if has("mac")
+ nmap <leader>O :!open %:p<cr><cr>
+endif
+
 "Spelling
 nmap <silent> <leader>s :setlocal spell!<CR>
 
