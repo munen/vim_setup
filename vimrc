@@ -49,6 +49,9 @@ vmap <leader>S :TOhtml<cr> :w! /tmp/1.html<cr> :!open /tmp/1.html<cr> :q!<cr>
 map [ :bp<cr>
 map ] :bn<cr>
 
+"Quickly open ctrlp
+map <leader>f :CtrlP<cr>
+
 
 ""
 " Python settings
