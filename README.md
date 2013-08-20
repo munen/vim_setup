@@ -180,6 +180,12 @@ Vim Interface to Web API
 
 and some utility functions.
 
+## ctrlp
+https://github.com/kien/ctrlp.vim
+
+Fuzzy file finder. A lot like the well known CMD-T, but written in pure
+vimscript, so there's no need for C extensions, ruby support, et al.
+
 # Color schemes
 ## Solarized (bright and dark, high contrast)
 * Bright mode good for presentations

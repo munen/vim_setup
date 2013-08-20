@@ -103,3 +103,6 @@
 [submodule "bundle/webapi"]
 	path = bundle/webapi
 	url = git@github.com:mattn/webapi-vim.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
