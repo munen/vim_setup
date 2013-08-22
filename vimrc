@@ -14,7 +14,7 @@ let g:mapleader = ","
 nmap <leader>w :w!<cr>
 
 "Fast quit
-nmap <leader>q :q<cr>
+nmap <leader>q :qa<cr>
 
 "Fast pasting
 nmap <leader>p :set paste!<cr>
