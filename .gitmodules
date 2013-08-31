@@ -106,3 +106,6 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = git@github.com:kien/ctrlp.vim.git
+[submodule "bundle/find_yaml_key"]
+	path = bundle/find_yaml_key
+	url = git@github.com:munen/find_yaml_key.git

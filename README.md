@@ -265,6 +265,11 @@ You get:
     foo    = 1
     foobar = 2
 
+##FindYamlKey
+https://github.com/munen/find_yaml_key
+
+Plugin to search nested keys in a YAML document.
+
 # Ruby
 ## Rails
 https://github.com/tpope/vim-rails
