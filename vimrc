@@ -280,3 +280,7 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$")
     \| exe "normal! g'\"" | endif
 endif
+
+" Shortcut for scripting calculations
+" Type 8*8<C-A> results in 8*8=64
+ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
