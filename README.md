@@ -270,6 +270,11 @@ https://github.com/munen/find_yaml_key
 
 Plugin to search nested keys in a YAML document.
 
+##BufOnly
+https://github.com/duff/vim-bufonly
+
+:BufOnly without an argument will unload all buffers but the current one.
+
 # Ruby
 ## Rails
 https://github.com/tpope/vim-rails

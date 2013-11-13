@@ -19,8 +19,8 @@ nmap <leader>q :qa<cr>
 "Fast pasting
 nmap <leader>p :set paste!<cr>
 
-"Fast :only
-nmap <leader>o :only<cr>:MiniBufExplorer<cr>
+"Fast closing of all buffers expect current
+nmap <leader>o :BufOnly<cr>:MiniBufExplorer<cr>
 
 "Fast open file with standard program (mac only)
 if has("mac")

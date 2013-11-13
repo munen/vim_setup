@@ -109,3 +109,6 @@
 [submodule "bundle/find_yaml_key"]
 	path = bundle/find_yaml_key
 	url = git@github.com:munen/find_yaml_key.git
+[submodule "bundle/bufonly"]
+	path = bundle/bufonly
+	url = git@github.com:duff/vim-bufonly.git
