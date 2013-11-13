@@ -31,6 +31,7 @@ If you want to upgrade all plugins, pull master for each bundle:
     cd $HOME/.vim
     git submodule add $PATH_TO_GIT_REPO ./bundle/$LOCAL_NAME
     git add .gitmodules bundle
+    # update README.md
     git commit -am"your message"
 
 ##pathogen
