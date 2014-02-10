@@ -1,3 +1,6 @@
+"Check os - needed for minor differences between osx and linux
+let os = substitute(system('uname'), "\n", "", "")
+
 "Keep each plugin in its town git submodule
 call pathogen#infect()
 call pathogen#helptags()
@@ -5,7 +8,6 @@ call pathogen#helptags()
 "Set mapleader for extra combinations
 let mapleader = ","
 let g:mapleader = ","
-
 
 "Remap ESC to jj
 :imap jj <esc>
@@ -36,11 +38,17 @@ nmap <leader>a :Ag<cr>
 "Open and close NERDTree
 map <c-n> :NERDTreeToggle<CR>
 
-"Fast copying to clipboard in visual mode
-vmap <leader>c "*y<cr>
+"Clipboard
+if os == "darwin"
+  "Fast copying to clipboard in visual mode
+  vmap <leader>c "*y<cr>
 
-"Fast cutting to clipboard in visual mode
-vmap <leader>x "*x<cr>
+  "Fast cutting to clipboard in visual mode
+  vmap <leader>x "*x<cr>
+elseif os == "Linux"
+  set clipboard=unnamed
+  set clipboard=unnamedplus
+endif
 
 "Fast creating a visual code snippet and open in browser
 vmap <leader>S :TOhtml<cr> :w! /tmp/1.html<cr> :!open /tmp/1.html<cr> :q!<cr>
@@ -146,17 +154,18 @@ set nowritebackup
 set backupdir=/tmp
 
 "Enable mouse usage
-"
 set mouse=a
+
 syntax on
+
 "cmd completion enhanced mode
 set wildmenu
+
 "Persistent undo
 if has("undofile")
   set undofile
   set undodir=/tmp
 end
-
 
 "Detect filetype, load optional filetype plugins, load optional indent rule file
 filetype plugin indent on
@@ -208,13 +217,11 @@ nmap <leader>c :cope<cr>
 nmap <leader>C :ccl<cr>
 
 "Set font according to system
-let os = substitute(system('uname'), "\n", "", "")
 if os == "darwin"
   set guifont=Menlo:h12
   " https://blogs.adobe.com/typblography/2012/09/source-code-pro.html
   "set guifont=Source\ Code\ Pro:h13
-
-elseif os == "linux"
+elseif os == "Linux"
   set guifont=Mensch\ 10
   "set guifont=Anonymous\ Pro\ 12
   "set guifont=Deja\ Vu\ Sans\ Mono\ 10
@@ -250,7 +257,8 @@ nmap <leader>gd :CMiniBufExplorer <cr> :Gstatus <cr><C-w><C-w> :Gdiff <cr>
 :set laststatus=2
 
 "tpope's statusline
-set statusline=[%n]\ %<%.99f\ %h%w%m%r%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%y%=%-16(\ %l,%c\ %)%P
+"Commented for the moment, because of powerline
+"set statusline=[%n]\ %<%.99f\ %h%w%m%r%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%y%=%-16(\ %l,%c\ %)%P
 
 
 "Text bubbling like in Textmate
@@ -270,8 +278,10 @@ nnoremap j gj
 nnoremap k gk
 
 "Powerline
-let g:Powerline_symbols = 'fancy'
-set laststatus=2
+if os == "darwin"
+  let g:Powerline_symbols = 'fancy'
+  " In Linux/i3 I cannot get the patched fonts to work properly
+endif
 set encoding=utf-8
 set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
 
