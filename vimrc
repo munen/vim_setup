@@ -90,8 +90,8 @@ au! BufRead,BufNewFile *.haml,*.hamlc setfiletype haml
 au BufRead,BufNewFile *.rabl setf ruby
 
 " RSpec.vim mappings
-map <Leader>R :call RunCurrentSpecFile()<CR>
-map <Leader>r :call RunNearestSpec()<CR>
+map <Leader>R :w<CR> :call RunCurrentSpecFile()<CR>
+map <Leader>r :w<CR> :call RunNearestSpec()<CR>
 let g:rspec_command = "!zeus rspec {spec}"
 
 "Line/Column information
