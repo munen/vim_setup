@@ -112,3 +112,6 @@
 [submodule "bundle/bufonly"]
 	path = bundle/bufonly
 	url = git@github.com:duff/vim-bufonly.git
+[submodule "bundle/rspec"]
+	path = bundle/rspec
+	url = https://github.com/thoughtbot/vim-rspec.git

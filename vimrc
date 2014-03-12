@@ -89,6 +89,11 @@ au! BufRead,BufNewFile *.haml,*.hamlc setfiletype haml
 "Treat .rabl files as .rb files
 au BufRead,BufNewFile *.rabl setf ruby
 
+" RSpec.vim mappings
+map <Leader>R :call RunCurrentSpecFile()<CR>
+map <Leader>r :call RunNearestSpec()<CR>
+let g:rspec_command = "!zeus rspec {spec}"
+
 "Line/Column information
 set ruler
 

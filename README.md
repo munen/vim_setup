@@ -283,6 +283,11 @@ https://github.com/tpope/vim-rails
 Remember when everybody and their mother was using TextMate for Ruby on Rails
 development? Well if it wasn't for rails.vim, we'd still be in that era.
 
+## Rspec
+https://github.com/thoughtbot/vim-rspec
+
+This is a lightweight RSpec runner for Vim and MacVim.
+
 ## RVM
 https://github.com/tpope/vim-rvm
 
