@@ -24,11 +24,6 @@ nmap <leader>p :set paste!<cr>
 "Fast closing of all buffers expect current
 nmap <leader>o :BufOnly<cr>:MiniBufExplorer<cr>
 
-"Fast open file with standard program (mac only)
-if has("mac")
- nmap <leader>O :!open %:p<cr><cr>
-endif
-
 "Spelling
 nmap <silent> <leader>s :setlocal spell!<CR>
 
@@ -45,6 +40,14 @@ if os == "darwin"
 
   "Fast cutting to clipboard in visual mode
   vmap <leader>x "*x<cr>
+
+  "Fast open file with standard program
+  nmap <leader>O :!open %:p<cr><cr>
+
+  "Powerline
+  let g:Powerline_symbols = 'fancy'
+  "In Linux/i3 I cannot get the patched fonts to work properly
+
 elseif os == "Linux"
   set clipboard=unnamed
   set clipboard=unnamedplus
@@ -54,12 +57,11 @@ endif
 vmap <leader>S :TOhtml<cr> :w! /tmp/1.html<cr> :!open /tmp/1.html<cr> :q!<cr>
 
 "Fast switching between buffers
-map [ :bp<cr>
-map ] :bn<cr>
+map { :bp<cr>
+map } :bn<cr>
 
 "Quickly open ctrlp
 map <leader>f :CtrlP<cr>
-
 
 ""
 " Python settings
@@ -165,12 +167,6 @@ syntax on
 
 "cmd completion enhanced mode
 set wildmenu
-
-"Persistent undo
-if has("undofile")
-  set undofile
-  set undodir=/tmp
-end
 
 "Detect filetype, load optional filetype plugins, load optional indent rule file
 filetype plugin indent on
@@ -282,11 +278,6 @@ set shortmess+=I
 nnoremap j gj
 nnoremap k gk
 
-"Powerline
-if os == "darwin"
-  let g:Powerline_symbols = 'fancy'
-  " In Linux/i3 I cannot get the patched fonts to work properly
-endif
 set encoding=utf-8
 set t_Co=256 " Explicitly tell Vim that the terminal supports 256 colors
 
@@ -299,3 +290,9 @@ endif
 " Shortcut for scripting calculations
 " Type 8*8<C-A> results in 8*8=64
 ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
+
+"Persistent undo
+set undofile
+set undodir=$HOME/.vim/undo
+set undolevels=500
+set undoreload=5000
