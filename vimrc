@@ -287,8 +287,8 @@ if has("autocmd")
     \| exe "normal! g'\"" | endif
 endif
 
-" Shortcut for scripting calculations
-" Type 8*8<C-A> results in 8*8=64
+"Shortcut for scripting calculations
+"Type 8*8<C-A> results in 8*8=64
 ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
 
 "Persistent undo
@@ -296,3 +296,6 @@ set undofile
 set undodir=$HOME/.vim/undo
 set undolevels=500
 set undoreload=5000
+
+"Format JSON
+map <leader>json <Esc>:%!python -m json.tool<CR>
