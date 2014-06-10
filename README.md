@@ -288,6 +288,11 @@ https://github.com/thoughtbot/vim-rspec
 
 This is a lightweight RSpec runner for Vim and MacVim.
 
+## Slime
+https://github.com/jpalardy/vim-slime
+
+Grab some text and "send" it to a GNU Screen / tmux / whimrepl session.
+
 ## RVM
 https://github.com/tpope/vim-rvm
 

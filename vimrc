@@ -91,6 +91,9 @@ au! BufRead,BufNewFile *.haml,*.hamlc setfiletype haml
 "Treat .rabl files as .rb files
 au BufRead,BufNewFile *.rabl setf ruby
 
+"Slime config (screen unfortunately is slow, tmux is fast)
+let g:slime_target = "tmux"
+
 " RSpec.vim mappings
 map <Leader>R :w<CR> :call RunCurrentSpecFile()<CR>
 map <Leader>r :w<CR> :call RunNearestSpec()<CR>
