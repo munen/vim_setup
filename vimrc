@@ -34,7 +34,7 @@ nmap <leader>a :Ag<cr>
 map <c-n> :NERDTreeToggle<CR>
 
 "Clipboard
-if os == "darwin"
+if tolower(os) == "darwin"
   "Fast copying to clipboard in visual mode
   vmap <leader>c "*y
 
@@ -48,7 +48,7 @@ if os == "darwin"
   let g:Powerline_symbols = 'fancy'
   "In Linux/i3 I cannot get the patched fonts to work properly
 
-elseif os == "Linux"
+elseif tolower(os) == "linux"
   set clipboard=unnamed
   set clipboard=unnamedplus
 endif
