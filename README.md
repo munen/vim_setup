@@ -293,12 +293,6 @@ https://github.com/jpalardy/vim-slime
 
 Grab some text and "send" it to a GNU Screen / tmux / whimrepl session.
 
-## RVM
-https://github.com/tpope/vim-rvm
-
-Want to use RVM with Vim? (ie don't want to use jruby with vim for speed
-reasons?)
-
 ## RubyBlock
 https://github.com/nelstrom/vim-textobj-rubyblock
 

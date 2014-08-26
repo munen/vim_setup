@@ -85,7 +85,6 @@ autocmd FileType python set number
 " Ruby settings
 ""
 autocmd FileType ruby set number
-"autocmd FileType ruby,haml Rvm use 1.8.7-p72
 autocmd FileType ruby runtime macros/matchit.vim
 au! BufRead,BufNewFile *.haml,*.hamlc setfiletype haml
 "Treat .rabl files as .rb files
