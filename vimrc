@@ -36,10 +36,10 @@ map <c-n> :NERDTreeToggle<CR>
 "Clipboard
 if os == "darwin"
   "Fast copying to clipboard in visual mode
-  vmap <leader>c "*y<cr>
+  vmap <leader>c "*y
 
   "Fast cutting to clipboard in visual mode
-  vmap <leader>x "*x<cr>
+  vmap <leader>x "*x
 
   "Fast open file with standard program
   nmap <leader>O :!open %:p<cr><cr>
