@@ -236,6 +236,11 @@ checkers as they are saved and opened. If syntax errors are detected, the user
 is notified and is happy because they didn't have to compile their code or
 execute their script to find them.
 
+##Javascript
+https://github.com/pangloss/vim-javascript
+
+JavaScript bundle for vim, this bundle provides syntax and indent plugins.
+
 ##Markdown
 https://github.com/tpope/vim-markdown
 
