@@ -114,6 +114,8 @@ set incsearch "Incremental search
 set ignorecase
 "Override 'ignorecase' if search pattern contains upper case characters
 set smartcase
+"When there is a previous search pattern, highlight all its matches
+set hlsearch
 
 "Shows all occurences of the underlying word
 nnoremap * :set hls<CR>:exec "let @/='\\<".expand("<cword>")."\\>'"<CR>
