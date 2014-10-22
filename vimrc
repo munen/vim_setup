@@ -303,3 +303,8 @@ set undoreload=5000
 
 "Format JSON
 map <leader>json <Esc>:%!python -m json.tool<CR>
+
+"When working with p_slides, there is primarily markdown inline in a script tag
+au! BufRead,BufNewFile *presentation*html set filetype=markdown
+"An alternative detection is to actually check for p_slides in the file:
+"if match(join(getline(1,'$')), 'type=\"p_slides\"') > 0
