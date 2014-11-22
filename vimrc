@@ -44,10 +44,6 @@ if tolower(os) == "darwin"
   "Fast open file with standard program
   nmap <leader>O :!open %:p<cr><cr>
 
-  "Powerline
-  let g:Powerline_symbols = 'fancy'
-  "In Linux/i3 I cannot get the patched fonts to work properly
-
 elseif tolower(os) == "linux"
   set clipboard=unnamed
   set clipboard=unnamedplus
@@ -262,7 +258,6 @@ nmap <leader>gd :CMiniBufExplorer <cr> :Gstatus <cr><C-w><C-w> :Gdiff <cr>
 :set laststatus=2
 
 "tpope's statusline
-"Commented for the moment, because of powerline
 "set statusline=[%n]\ %<%.99f\ %h%w%m%r%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%y%=%-16(\ %l,%c\ %)%P
 
 
