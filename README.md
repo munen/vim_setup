@@ -313,13 +313,6 @@ This is a simple plugin that helps to end certain structures automatically. In
 Ruby, this means adding end after if, do, def and several other keywords. In
 Vimscript, this amounts to appropriately adding endfunction, endif, etc.
 
-## Powerline
-https://github.com/Lokaltog/vim-powerline
-
-Powerline is a utility plugin which allows you to create better-looking, more functional vim statuslines.
-So that it can be used with 'fancy' symbols, a special font is needed. Look
-under fonts ["Menlo - For Powerline"](#menlo---for-powerline)
-
 # Fonts
 ## Inconsolata
 http://www.levien.com/type/myfonts/inconsolata.html
@@ -347,8 +340,4 @@ The latest MacOS release (10.6, or “Snow Leopard”) comes with a new monospac
 font. It’s called “Menlo” and it’s a slightly modified form of the standard
 Linux font (with appropriately weightily Linux name) “DejaVu Sans Serif Mono”,
 which is itself an updated form of Bitstream Vera Sans Mono.
-
-## Menlo - For Powerline
-https://gist.github.com/munen/5082395
-https://gist.github.com/qrush/1595572
 
