@@ -142,6 +142,8 @@ filetype plugin on
 
 "Colorschemes
 "wombat,zenburn,blackboard
+let g:airline_theme = "zenburn"
+
 if has('gui_running')
   "colorscheme solarized
   "set background=dark

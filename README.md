@@ -281,6 +281,11 @@ https://github.com/duff/vim-bufonly
 
 :BufOnly without an argument will unload all buffers but the current one.
 
+##Airline
+https://github.com/bling/vim-airline
+
+Lean & mean status/tabline.
+
 # Ruby
 ## Rails
 https://github.com/tpope/vim-rails

@@ -115,3 +115,6 @@
 [submodule "bundle/javascript"]
 	path = bundle/javascript
 	url = git://github.com/pangloss/vim-javascript.git
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = git@github.com:bling/vim-airline.git
