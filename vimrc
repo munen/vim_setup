@@ -101,8 +101,11 @@ set ruler
 if has("gui_running")
   "Don't show toolbar
   set guioptions-=T
-  "Vertical fullscreen
-  set lines=999 columns=100
+
+  "Distraction free programming
+  if has("gui_macvim")
+    map <Leader>F :set fuopt-=maxhorz<CR> :set invfu<CR>
+  end
 endif
 
 "Search
