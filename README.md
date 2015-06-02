@@ -29,8 +29,8 @@ If you want to upgrade all plugins, pull master for each bundle:
 ## Adding a new plugin
 
     cd $HOME/.vim
-    git submodule add $PATH_TO_GIT_REPO ./bundle/$LOCAL_NAME
-    git add .gitmodules bundle
+    git submodule add -f $PATH_TO_GIT_REPO ./bundle/$LOCAL_NAME
+    git add -f .gitmodules bundle
     # update README.md
     git commit -am"your message"
 
@@ -317,6 +317,19 @@ https://github.com/tpope/vim-endwise
 This is a simple plugin that helps to end certain structures automatically. In
 Ruby, this means adding end after if, do, def and several other keywords. In
 Vimscript, this amounts to appropriately adding endfunction, endif, etc.
+
+# Clojure
+## Fireplace
+https://github.com/tpope/vim-fireplace
+
+There's a REPL in fireplace, but you probably wouldn't have noticed if I hadn't
+told you. Such is the way with fireplace.vim. By the way, this plugin is for
+Clojure.
+
+## Leiningen
+https://github.com/tpope/vim-leiningen
+
+Static support for Leiningen
 
 # Fonts
 ## Inconsolata
