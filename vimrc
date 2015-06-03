@@ -92,7 +92,7 @@ let g:slime_target = "tmux"
 " RSpec.vim mappings
 map <Leader>R :w<CR> :call RunCurrentSpecFile()<CR>
 map <Leader>r :w<CR> :call RunNearestSpec()<CR>
-let g:rspec_command = "!zeus rspec {spec}"
+let g:rspec_command = "!rspec {spec}"
 
 "Line/Column information
 set ruler
@@ -301,9 +301,6 @@ set undodir=$HOME/.vim/undo
 set undolevels=500
 set undoreload=5000
 
-"Format JSON
-map <leader>json <Esc>:%!python -m json.tool<CR>
-
 "When working with p_slides, there is primarily markdown inline in a script tag
 au! BufRead,BufNewFile *html,*htm call TestForPSlides()
 "Check whether it is a p_slides presentation
@@ -312,3 +309,6 @@ function TestForPSlides()
     set filetype=markdown
   endif
 endfunction
+
+"Format JSON
+map <leader>json <Esc>:%!python -m json.tool<CR>
