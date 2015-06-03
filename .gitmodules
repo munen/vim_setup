@@ -124,3 +124,6 @@
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = git@github.com:elzr/vim-json.git
+[submodule "bundle/minibufexpl"]
+	path = bundle/minibufexpl
+	url = git@github.com:weynhamz/vim-plugin-minibufexpl.git
