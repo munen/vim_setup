@@ -331,6 +331,12 @@ https://github.com/tpope/vim-leiningen
 
 Static support for Leiningen
 
+## Clojure Static
+https://github.com/guns/vim-clojure-static#syntax-options
+
+Syntax Highlighting for Clojure and ClojureScript. Indentation. And insert mode
+complection through <C-X><C-O> and <C-X><C-U>.
+
 # Fonts
 ## Inconsolata
 http://www.levien.com/type/myfonts/inconsolata.html
