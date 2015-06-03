@@ -124,3 +124,6 @@
 [submodule "bundle/vim-leiningen"]
 	path = bundle/vim-leiningen
 	url = git://github.com/tpope/vim-leiningen.git
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = git@github.com:elzr/vim-json.git
