@@ -252,7 +252,7 @@ autocmd BufWritePost * if &diff == 1 | diffupdate | endif
 
 "Fugitive configuration
 "disable mbe, because it confuses Gdiff, then get the status window and diff
-nmap <leader>gd :CMiniBufExplorer <cr> :Gstatus <cr><C-w><C-w> :Gdiff <cr>
+nmap <leader>gd :MBEClose <cr> :Gstatus <cr><C-w><C-w> :Gdiff <cr>
 
 "OPTIONAL configuration
 
