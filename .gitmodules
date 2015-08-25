@@ -130,3 +130,6 @@
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = git@github.com:guns/vim-clojure-static.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = git://github.com/digitaltoad/vim-jade.git

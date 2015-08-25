@@ -112,6 +112,10 @@ https://github.com/kchmck/vim-coffee-script
 Adds CoffeeScript supporr. It handles syntax, indenting, and compiling. Also
 included is an eco syntax and support for CoffeeScript in Haml and HTML.
 
+##jade
+https://github.com/digitaltoad/vim-jade
+
+Vim syntax highlighting for Jade templates.
 
 ##gist-vim
 https://github.com/mattn/gist-vim
