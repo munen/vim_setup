@@ -59,6 +59,9 @@ want to search.  This search can also be accomplished with the :Grep command.</l
 Searching and replacing (recursively) in arbitrary folder structures is easy,
 as well.
 
+## Distraction Free Mode for Vim
+https://github.com/bruth/vim-distraction-free
+
 ##VimRepress
 https://github.com/vim-scripts/VimRepress
 

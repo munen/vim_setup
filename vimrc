@@ -152,7 +152,11 @@ if has('gui_running')
   "set background=dark
   colorscheme Tomorrow-Night
 else
+  "regular
   colorscheme wombat256
+  "zhaw
+  "colorscheme solarized
+  "set background=light
 end
 
 ""
